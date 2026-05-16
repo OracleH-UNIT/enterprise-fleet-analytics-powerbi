@@ -13,8 +13,11 @@ Transformed a highly fragmented logistics database—consisting of 14 interconne
 🛠️ Data Architecture & Modeling
 
 To ensure accurate aggregation and avoid cross-filtering errors across multiple fact tables, I architected a robust Star Schema relational model:
+
 • Designed custom Dimension tables (Dim_Trucks, Dim_Drivers) to resolve Many-to-Many relationships between utilization metrics and transactional repair/safety logs.
+
 • Engineered a master Dim_Date table using DAX (CALENDARAUTO()) to perfectly sync financial metrics across all departments and avoid "vanishing data" issues on days with zero loads.
+
 • Developed complex DAX measures utilizing VAR (Variables) for query optimization and conditional logic to construct custom financial metrics.
 
 📈 The Dashboard Ecosystem

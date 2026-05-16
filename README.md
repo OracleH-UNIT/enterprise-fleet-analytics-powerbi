@@ -32,6 +32,8 @@ The Dashboard Ecosystem
 
 • Developed a categorical Donut Chart breaking down the exact composition of total operational expenses (Fuel, Maintenance, Driver Pay, and Safety Costs), providing immediate visibility into budget distribution.
 
+P.S: Since the drivers pay rate/Salary wasn't provided in the datasets, I created a "What-If Parameter" (a slider on the dashboard) labeled Driver Pay Rate ($/Mile) and set the default to $0.60 and I dynamically modeled Driver's compensation based on industry-standard Cost-Per-Mile (CPM) rates. You can use the parameter slider to adjust the rate and model different profitability scenarios.
+
 2. Fleet & Asset Management (The Efficiency Matrix):
 
 • Key Metrics Tracked: Total Maintenance Cost, Maintenance Cost Per Mile, Total Downtime Hours, Average Fleet MPG.

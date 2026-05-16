@@ -7,9 +7,11 @@ Role: Data Analyst / BI Developer
 Tools Used: Power BI, Advanced DAX, Power Query, Relational Data Modeling.
 
 📊 Project Overview
+
 Transformed a highly fragmented logistics database—consisting of 14 interconnected operational tables and over 85,000 raw records—into a unified, 3-page interactive Executive Dashboard. The objective was to bridge the gap between raw dispatch data and actionable financial and risk intelligence.
 
 🛠️ Data Architecture & Modeling
+
 To ensure accurate aggregation and avoid cross-filtering errors across multiple fact tables, I architected a robust Star Schema relational model:
 • Designed custom Dimension tables (Dim_Trucks, Dim_Drivers) to resolve Many-to-Many relationships between utilization metrics and transactional repair/safety logs.
 • Engineered a master Dim_Date table using DAX (CALENDARAUTO()) to perfectly sync financial metrics across all departments and avoid "vanishing data" issues on days with zero loads.
